@@ -3,7 +3,9 @@ title: GraphQ-
 date: 2014-03-10 19:20:51
 awesome_toc: true
 tags:
+- New
 - History
+- Storage
 categories:
 - Brasrom
 
@@ -18,6 +20,7 @@ In the cmd your hello directory, execute this sentence npm install hexo-asset-im
 After the installation is complete, when you run hexo n "title" to generate the md blog post, the /source/_posts folder has a folder with the same name in addition to the title.md file.
 
 When importing images in title.md, first copy the images into the title folder, and then just import the images in the markdown format in title.md
+
 ![](GraphQ-1/2.jpg)
 ![](GraphQ-1/1.png)
 
