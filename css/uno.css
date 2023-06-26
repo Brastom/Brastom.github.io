@@ -1231,6 +1231,22 @@ body {
   color: #666666;
 }
 
+
+
+/*增加背景壁纸*/
+body {
+  /* background-color: #eaeaea; */
+  background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)) 0% 0% / cover, url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg") 0px 0px;
+  background-attachment: fixed;
+  margin: 0;
+  color: #7F95D1;
+}
+
+
+
+
+
+
 ::selection {
   background: #fae3df;
 }
@@ -1443,6 +1459,7 @@ code {
   font-size: .7em;
   color: #b3b3b3;
 }
+
 
 .footer__copyright {
   display: block;
@@ -2165,6 +2182,34 @@ input[type="tel"]:-ms-input-placeholder {
     margin-bottom: .4em;
   }
 }
+
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+  background-color: #FF2A68;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 0%, transparent 0%, transparent 0%, rgba(255, 255, 255, .4) 0%, rgba(255, 255, 255, .4) 0%, transparent 0%, transparent);
+  border-radius: 0em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffcacaff;
+  border-radius: 0em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* 滚动条 上面是修改版隐藏滚动条，这个是原版
+::-webkit-scrollbar-thumb {background-color: #FF2A68;background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);border-radius: 3em;
+}
+::-webkit-scrollbar-track {background-color: #ffcacaff;border-radius: 3em;
+}
+::-webkit-scrollbar {width: 8px;height: 15px;
+}
+*/
+
 
 /* add */
 
